@@ -1,0 +1,476 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* För att undvika skrollning ovanför allt innehåll på hemsidan */
+html {
+    overflow: hidden;
+    height: 100%;
+}
+body {
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    width: 100%;
+}
+/* delare på hemsidan */
+.delar .shadow, .delar_blue .shadow {
+    overflow: hidden;
+    height: 20px;
+  }
+.delar .shadow:after {
+    content: '';
+    display: block;
+    margin: -25px auto 0;
+    width: 100%;
+    height: 25px;
+    border-radius: 125px/12px;
+    box-shadow: 0 0 8px black;
+  }
+
+  .delar_blue .shadow:after {
+    content: '';
+    display: block;
+    margin: -25px auto 0;
+    width: 30%;
+    height: 25px;
+    border-radius: 125px/12px;
+    box-shadow: 0 0 8px #0679B5;
+  }
+
+/* generellt */
+.wrapper {
+    font-family: "Poppins" , sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+.wrapper p {
+    text-align: left;
+}
+.wrapper > * {
+    flex: 1 100%;
+    flex-flow: wrap;
+    justify-content: center;
+}    
+
+/* Logo i header ovanför menyn */
+
+.logo {
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 80%;
+  position: relative;
+}
+
+.logo .shadow {
+  overflow: hidden;
+  height: 20px;
+}
+
+.logo .shadow:after {
+  content: '';
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px/12px;
+  box-shadow: 0 0 8px black;
+}
+
+.logo .text {
+    font-size: 1.3rem;
+    width: 150px;
+    height: 35px;
+    padding: 10px;
+    position: absolute;
+    bottom: 100%;
+    left: 48%;
+    margin-bottom: -33px;
+    margin-left: -60px;
+    border-radius: 100%;
+    box-shadow: 0 2px 4px #999;
+    background: white;
+  }
+  
+
+/* Navigerings meny  */
+   .meny {   
+    list-style: none;
+    margin: 20px auto;
+    width: 800px;   
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+   }
+   
+   .meny li {
+    background: #d3cdbf;
+    float: left;
+    position: relative;
+    z-index: 333;
+    padding: 0;
+   }
+   
+   .meny a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+   }  
+   
+   .meny li:hover, #bröllop, #priser, #om_mig {
+    background: #beb7a2;
+    text-decoration: underline;
+    transform: scale(1.05);
+   }  
+
+   .meny li a {
+    padding: 1em 2em;
+    
+   }
+
+   .meny_foretag {   
+    list-style: none;
+    margin: 20px auto;
+    width: 800px;   
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content; 
+   }
+   
+   .meny_foretag li {
+    background: #10263A;
+    float: left;
+    position: relative;
+    z-index: 333;
+    padding: 0;
+   }
+   
+   .meny_foretag a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+   }  
+   
+   .meny_foretag li:hover, #företag {
+    background: #0679B5;
+    text-decoration: underline;
+    transform: scale(1.05);
+
+   }  
+   
+   .meny_foretag li a {
+    padding: 1em 2em;
+   }
+
+
+
+
+/* Knappar */
+.btn_beige {
+
+    background-color: #beb7a2; 
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    padding: 15px 32px;
+    color: black;
+    border: solid;
+
+
+}
+
+.btn_beige:hover {
+    background-color: #beb7a2;
+    transform: scale(1.05);
+
+  }
+
+.btn_blue {
+    background-color: #0679B5; 
+    border: none;
+    padding: 15px 32px;
+    font-size: 1.3rem;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+
+    color: rgb(255, 255, 255);
+    border: solid;
+    
+
+  }
+
+.btn_blue:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
+  }
+
+/* Topp bild och text */
+.huvudbild_index {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.huvudbild_index h1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centrerad_h1 {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+
+}
+/* Sektioner */
+p{
+    max-width:37.5rem;
+    text-align:center;
+    margin:0 auto;
+    font-size: 1.3rem;
+    line-height: 1.45em; 
+}
+address, h3, label  {
+font-size: 1.3rem;
+}
+
+.timmar {
+    padding: 20px;
+    background-color: #d3cdbf;
+}
+.om_mig {
+    background-color: #d3cdbf;
+}
+.om_mig_kontext p {
+    padding-left: 60px;
+}
+.business_card {
+    width: 510px;
+}
+.business_card h2 {
+    background-color: #10263A;
+    padding: 15px 32px;
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+.om_freya_kontakt2 {
+    background-color: #d3cdbf;
+}
+
+.bilder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.bilder_brollop {
+    padding-bottom: 120px;
+}
+.ovrebilder {
+    margin-bottom: -1%;
+
+}
+
+.section_kontaktamig, .pris_brollop,.section_kontaktamig_nedre, .om_mig, .foretag_mitten,.foretag_mitten_nr2,.foretag_nedre, .prislista, .prisertvå{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.foretag_mitten p, .foretag_mitten_nr2 p {
+    padding: 15px;
+}
+.quote {
+    margin-top: 100px;
+}
+.foretag_box{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, -70%);
+    background-color: #10263A;
+    color: #ffffff;
+    max-width: 700px;
+    padding: 60px;
+}
+.h1_kontakt {
+    width: 90%;
+    margin: 0 auto;
+    display: inline-block;
+}
+.kontaktuppgifter p{
+    width: auto;
+}
+.prisertvå  {
+    flex-wrap: wrap-reverse;
+}
+
+.process li {
+    background-color: #d3cdbf;
+    max-width:  45vh;
+    margin: 0 auto;
+}
+
+ol {
+    list-style: upper-roman;
+    list-style-position: inside;
+    font-size: 1.5rem;
+}
+ol h3 {
+    margin: 0;
+}
+ol p {
+    padding: 15px;
+}
+ul li {
+    padding: 20px;
+    font-size: 1.3rem;
+    text-align: left;
+}
+/* Bilder */
+.huvudbild_index img  {
+    object-fit: cover;
+    object-position: center 10%;
+    width: 100%;
+    height: 600px;
+}
+.bilder_priser div img, .bilder_brollop div img{
+    width: 30%;
+    max-width: fit-content;
+}
+.foretag_mitten img,.foretag_mitten_nr2 img  {
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+}
+.pris_brollop img, .section_kontaktamig_nedre img, .foretag_nedre img {
+    max-width: fit-content;
+    width: 100%;
+
+}
+.prislista img, .prisertvå img {
+    max-width: 40%;
+
+}
+.section_kontaktamig_nedre img {
+    max-width:600px;
+    max-height:595px;
+
+}
+.brollop_kort, .foretag_kort {
+    height: 30vh;
+    width: 55vh;
+    padding-bottom: 7vh;
+}
+.foretag_kort img, .brollop_kort img {
+    border-radius: 20px 20px 20px 20px;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    -webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.foretag_kort img:hover, .brollop_kort img:hover{
+    transition: 0.5s;
+    color: gray;
+    -webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
+    transform: scale(1.05);
+}
+.om_mig img, .section_kontaktamig img {
+    width: min(100%, 640px);
+}
+.om_mig img {
+    border-radius: 50px 10px;
+
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #d3cdbf;
+}
+
+
+
+/* kontaktformulär */
+
+fieldset {
+    min-width: 90%; 
+    margin: 0 auto;
+    border-top: solid;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(211, 205, 191, 1);
+}
+fieldset legend{
+    font-weight: bolder;
+    border: solid;
+    font-size: 1.3rem;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+input {
+    padding: 0.75rem;
+    border-radius: 33px;
+    max-width: 250px;
+}
+input:focus {
+    color: #10263A;
+
+}
+.omfreya p, #fiktiv, .om_freya_kontakt2 p, .kontaktuppgifter p {
+    text-align: center;
+}
+
+textarea, input {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 80%;
+    max-width: 500px;
+    font-size: 1.3rem;
+}
+/* ----------------------------------- */
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+     .centrerad_h1  {
+       top: 45%;
+    }
+    }
+    
+@media only screen and (max-width: 600px) {
+        .huvudbild_index h1 {
+          top: 35%;
+       }
+       }
+@media only screen and (max-width: 430px) {
+        .centrerad_h1  {
+          top: 60%;
+       }
+       }
+       
+@media only screen and (max-width: 430px) {
+        .huvudbild_index h1 {
+            top: 50%;
+        }
+       }
+@media only screen and (max-width: 430px) {
+        .foretag_box {
+            transform: translate(-50%, -30%);
+        }
+       }
+@media only screen and (max-width: 330px) {
+        .btn_blue {
+            display: flex;
+        }
+       }
