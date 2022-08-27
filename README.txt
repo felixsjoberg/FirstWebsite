@@ -1,5 +1,4 @@
-This project was my final exam for the course 'Webbutveckling 1'.
-The project was only supposed to be written with vanilla html&css without JS.
+This project was my final exam in the course 'Webbutveckling 1'.
+The project was only supposed to be written with vanilla HTML&CSS without JS.
 
-Because of not knowing about Git & GitHub beforehand & therefore didn't use for this project.
-Everything 
+Uploading here because of learning to be accustomed to use & save project on github
