@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+
 /* För att undvika skrollning ovanför allt innehåll på hemsidan */
 html {
     overflow: hidden;
@@ -78,18 +80,21 @@ body {
 }
 
 .logo .text {
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     width: 150px;
     height: 35px;
     padding: 10px;
+    padding-bottom:15px;
     position: absolute;
     bottom: 100%;
     left: 48%;
-    margin-bottom: -33px;
+    margin-bottom: -23px;
     margin-left: -60px;
     border-radius: 100%;
     box-shadow: 0 2px 4px #999;
     background: white;
+    font-family: "Qwitcher Grypen" , "Poppins", sans-serif;
+
   }
   
 
