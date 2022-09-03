@@ -401,8 +401,19 @@ ul li {
 
 footer {
     background-color: #d3cdbf;
-}
+    display: flex;
+   
 
+}
+footer section{
+width: 35%;
+
+
+}
+#botten {
+    width: 50%;
+    
+}
 
 
 /* kontaktformulär */
@@ -410,12 +421,13 @@ footer {
 fieldset {
     min-width: 90%; 
     margin: 0 auto;
-    border-top: solid;
+    border-top: none;
     border-left: none;
     border-right: none;
     background-color: rgba(211, 205, 191, 1);
 }
 fieldset legend{
+    min-width: 0%;
     font-weight: bolder;
     border: solid;
     font-size: 1.3rem;
