@@ -217,6 +217,7 @@ body {
     position: relative;
     text-align: center;
     color: rgb(0, 0, 0);
+    margin-bottom: 5%;
 }
 .huvudbild_index h1 {
     position: absolute;
@@ -320,6 +321,9 @@ font-size: 1.3rem;
     max-width:  45vh;
     margin: 0 auto;
 }
+section.process {
+    margin-bottom: 3%;
+}
 
 ol {
     list-style: upper-roman;
@@ -400,6 +404,7 @@ ul li {
 /* Footer */
 
 footer {
+    margin-top: 10%;
     background-color: #d3cdbf;
     display: flex;
    
