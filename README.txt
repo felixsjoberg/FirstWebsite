@@ -7,3 +7,6 @@ Some of the criterias:
 - Optimised image files.
 - User friendly interface (by being consistent, logical, accessible through keyboard or screenreader)
 - No framework or Javascript.
+
+Additionally, I developed an equivalent version utilizing the WordPress platform.
+https://freyaphotos885549939.wordpress.com/
